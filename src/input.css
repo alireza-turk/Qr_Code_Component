@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Outfit-normal;
+    src: url("./../font/Outfit-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Outfit-bold;
+    src: url("./../font/Outfit-Bold.ttf");
+    font-weight: 700;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
