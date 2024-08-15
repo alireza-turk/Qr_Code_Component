@@ -11,3 +11,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components{
+    .textpreset-1{
+        @apply text-[22px] leading-[120%] tracking-[0];
+    }
+    .textpreset-2{
+        @apply text-[15px] leading-[140%] tracking-[0.2px];
+    }
+}

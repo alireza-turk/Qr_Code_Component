@@ -570,6 +570,18 @@ video {
   --tw-contain-style:  ;
 }
 
+.textpreset-1 {
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.textpreset-2 {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
 .visible {
   visibility: visible;
 }
@@ -582,8 +594,20 @@ video {
   position: relative;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-\[24px\] {
+  margin-bottom: 24px;
+}
+
 .block {
   display: block;
+}
+
+.flex {
+  display: flex;
 }
 
 .table {
@@ -598,6 +622,22 @@ video {
   display: none;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -610,8 +650,50 @@ video {
   resize: both;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
 .border {
   border-width: 1px;
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-\[16px_16px_40px_16px\] {
+  padding: 16px 16px 40px 16px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-Outfit-bold {
@@ -626,6 +708,10 @@ video {
   font-size: 15px;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -638,10 +724,46 @@ video {
   font-weight: 400;
 }
 
+.leading-\[120\%\] {
+  line-height: 120%;
+}
+
+.leading-\[140\%\] {
+  line-height: 140%;
+}
+
+.tracking-\[0\.2px\] {
+  letter-spacing: 0.2px;
+}
+
+.tracking-\[0\] {
+  letter-spacing: 0;
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+.text-slate-900 {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
 
 .outline {
   outline-style: solid;
+}
+
+@media (min-width: 375px) {
+  .min-\[375px\]\:w-\[320px\] {
+    width: 320px;
+  }
+}
+
+.\[\&\>p\]\:text-center>p {
+  text-align: center;
 }
