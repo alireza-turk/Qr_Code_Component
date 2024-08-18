@@ -878,6 +878,10 @@ video {
   width: 100%;
 }
 
+.w-\[85\%\] {
+  width: 85%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1978,6 +1982,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2535,6 +2544,10 @@ video {
   .min-\[375px\]\:text-\[22px\] {
     font-size: 22px;
   }
+}
+
+.\[\&\>\*\]\:text-center>* {
+  text-align: center;
 }
 
 .\[\&\>p\]\:text-center>p {
